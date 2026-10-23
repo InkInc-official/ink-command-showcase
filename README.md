@@ -12,3 +12,7 @@ Ink Inc. の内部ツールを一画面にまとめる、AI Ops HUD の試作で
 
 ## ライセンス
 MIT License
+
+---
+
+Created by **Ink Inc.** / 黒井葉跡 (Kuroi Haato) — https://inkinc-hp.pages.dev/
