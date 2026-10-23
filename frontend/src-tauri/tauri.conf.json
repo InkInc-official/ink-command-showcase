@@ -1,0 +1,42 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "ink-command-pro",
+  "version": "0.1.0",
+  "identifier": "com.inkinc.inkcommandpro",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5174",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+  "label": "manager",
+  "title": "Ink Command — Manager",
+  "width": 400,
+  "height": 600,
+  "resizable": false,
+  "fullscreen": false,
+  "alwaysOnTop": true,
+  "decorations": true,
+  "transparent": false,
+  "maximizable": false
+}
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

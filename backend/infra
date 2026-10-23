@@ -1,0 +1,21 @@
+@app.get("/infra")
+async def infra():
+    acepec = ping_node("HOST_3_IP")
+    bot_nuc = ping_node("HOST_6_IP")
+
+    return {
+        "acepec": {
+            "name": "Acepec Backup",
+            "ip": "HOST_3_IP",
+            "status": acepec["status"],
+            "latency": acepec["latency"],
+            "role": "Backup Node",
+        },
+        "bot_nuc": {
+            "name": "Bot NUC",
+            "ip": "HOST_6_IP",
+            "status": bot_nuc["status"],
+            "latency": bot_nuc["latency"],
+            "role": "Bot Node",
+        },
+    }

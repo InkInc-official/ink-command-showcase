@@ -1,0 +1,40 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "enables the default permissions",
+  "windows": [
+    "manager",
+    "system",
+    "gpu",
+    "infrastructure",
+    "services",
+    "ai_ops",
+    "ink_radio",
+    "rss",
+    "backup",
+    "acepc_health",
+    "launcher"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-create",
+    "core:window:allow-close",
+    "core:window:allow-destroy",
+    "core:window:allow-set-focus",
+    "core:window:allow-show",
+    "core:window:allow-hide",
+    "core:window:allow-set-always-on-top",
+    "core:window:allow-set-position",
+    "core:window:allow-set-size",
+    "core:window:allow-get-all-windows",
+    "core:window:allow-outer-position",
+    "core:window:allow-outer-size",
+    "core:window:allow-start-dragging",
+    "core:webview:allow-create-webview-window",
+    "store:allow-get",
+    "store:allow-set",
+    "store:allow-save",
+    "store:allow-load",
+    "core:window:allow-start-resize-dragging"
+  ]
+}

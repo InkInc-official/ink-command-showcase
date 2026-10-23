@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Build
+src-tauri/target/
+
+# Secrets
+settings.json
+config.json
+
+# Media
+media/
+downloads/
+
+# Ollama
+ollama/
+
+# Temporary
+tmp/
+cache/

@@ -1,0 +1,5 @@
+// Add near imports:
+import AcepcHealthWidget from "./components/AcepcHealthWidget";
+
+// Add in render, recommended after BackupStatusWidget:
+<AcepcHealthWidget />
